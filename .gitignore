@@ -1,0 +1,64 @@
+# ignore fileadmin temp-folders
+_temp_/
+
+# ignore logs
+*.log
+
+# ignore actual contents
+/htdocs/uploads
+/htdocs/typo3temp
+/htdocs/forum/downloads/
+/htdocs/forum/chat/plugins/handwrite/uploads/
+/htdocs/misc
+/htdocs/fileadmin
+
+# Ignore node_modules
+node_modules
+
+# Ignore composer folder
+vendor
+
+# ignore misc
+*.un~
+*.swp
+oracle.sqlite
+.sass-cache
+
+# archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.zip
+*.bzip
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+.~lock.*
+.directory
+
+# vim
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# Intellij / PHP-Storm
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# .env file
+.env
+

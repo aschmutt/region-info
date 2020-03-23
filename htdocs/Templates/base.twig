@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+{{ include('Partials/head.twig', {title: title}) }}
+<body>
+<header>
+    {{ include('Partials/nav.twig') }}
+</header>
+
+<main role="main">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="text-muted">
+    {{ include('Partials/footer.twig') }}
+</footer>
+<script src="/Js/index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
