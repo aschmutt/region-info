@@ -1,0 +1,83 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <div class="card bg-dark text-white header-card d-print-none">
+        <img src="/Img/Pizza_1024.jpg" class="card-img" alt="Pizza und andere Lieferdienste">
+        <p class="copyright">
+            &copy; <a href="https://commons.wikimedia.org/wiki/File:Rotella_per_pizza.jpg" title="via Wikimedia Commons">Garonzi Stefania</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+        </p>
+
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Essen und Trinken</h2>
+                    <p>
+                        Viele Restaurants bieten jetzt eine Abholung von Speisen an.
+                        Auch Lieferdienste wurden eingerichtet, um Sie in der Ausgangssperre weiter zu versorgen.
+                    </p>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card" >
+                        <div class="card-header">
+                            Pizzeria
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bellanova Gessertshausen</h5>
+                            <p class="card-text">
+                                Pizzeria mit Lieferdienst in Gessertshausen und Umgebung <br />
+                                Aktuelle Info von der <a href="https://www.facebook.com/import.export.bellanova/">Bellanova Facebook Seite:</a> <br />
+                                <i>
+                                    Sehr geehrte Kunden, <br />
+                                    Ich möchte Ihnen mitteilten dass, wir ab Mittwoch den 17.03 2020 ganz normal geöffnet haben.
+                                    Da wir ein Lieferservice sind, dürfen wir unseren Betrieb ganz normal weiter führen. <br />
+                                    Das Bellanova Team
+                                </i>
+                            </p>
+                            <a href="http://www.bellanova-gessertshausen.de/" target="_blank" class="btn btn-primary">Zur Webseite</a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row py-3">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card" >
+                        <div class="card-header">
+                            Gemüsekiste
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Stümpflhof</h5>
+                            <p class="card-text">
+                                Seit vielen Jahren als Demeter-Betrieb anerkannt, bauen wir im biologisch-dynamischen Landbau Obst und Gemüse an.
+                                Es gibt sowohl Gemüse-Kisten als auch Einzelbestellung im Online-Aboshop.</p>
+                            <p class="card-text">
+                                Es gibt 1x wöchentlich einen <b>Liefer-Service</b> nach Gessertshausen.
+                                Bestellungen sind über die Webseite oder telefonisch unter <a href="tel:00498261909610">08261 - 909 610</a> möglich.
+                            </p>
+                            <a href="https://www.stuempflhof.de/" target="_blank" class="btn btn-primary">Zur Webseite</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top:50px;">
+                <div class="alert alert-warning" role="alert">
+                    Sie wollen einen weiteren Eintrag hinzufügen oder einen vorhandenen ändern? <br />
+                    Schreiben Sie eine Mail mit allen Infos an: <a href="mailto:kontakt@gessertshausen-info.de">kontakt@gessertshausen-info.de</a>
+                </div>
+            </div>
+            {{ include('Partials/about.twig') }}
+        </div>
+    </div>
+{% endblock %}
+
+
+
+

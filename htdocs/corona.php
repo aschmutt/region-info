@@ -8,4 +8,4 @@ $twig = new \Twig\Environment($loader, [
 ]);
 $twig->addExtension(new \Twig\Extension\DebugExtension());
 
-echo $twig->render('news.twig', ['title' => 'Aktuelles']);
+echo $twig->render('corona.twig', ['title' => 'Corona']);

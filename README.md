@@ -8,10 +8,11 @@ During Corona outbreak, I needed a fast and easy information webpage for my vill
 * run `composer install`
 
 * upload these folders to your server: `htdocs`, `vendor`  
-* open the Start page: `index.php in your browser, for example "http://www.my-city.com/index.php"
+* the start page is: `htdocs/index.php` 
 
 ### What Tools are used?
 
+* composer for installation https://getcomposer.org/
 * Bootstrap for Frontend https://getbootstrap.com/
 * Twig for Templates https://twig.symfony.com/
-* composer for installation https://getcomposer.org/
+

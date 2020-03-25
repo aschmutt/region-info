@@ -1,19 +1,58 @@
 {% extends "base.twig" %}
 
 {% block content %}
+    <div class="card bg-dark text-white header-card d-print-none">
+        <img src="/Img/Gessertshausen_Dietkirch2_1024.JPG" class="card-img" alt="Gessertshausen Dietkirch">
+        <p class="copyright">
+            &copy; <a href="https://commons.wikimedia.org/wiki/File:Dietkirch_-_Kirche_und_ehemalige_Schule.jpg" title="via Wikimedia Commons">Robme66</a> /
+            <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+        </p>
+
+    </div>
+
     <div class="album py-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 id="news">Startseite</h2>
-
-                    <p>Aenean vulputate eleifend tellus. Curabitur nisi. Donec vitae orci sed dolor rutrum auctor. Aliquam eu nunc. Aenean ut eros et nisl sagittis vestibulum.
-
-                        Vivamus aliquet elit ac nisl. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Etiam rhoncus. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p>
+                    <h2>Gessertshausen</h2>
+                    <h3>Informationen und Aktuelles</h3>
+                    <p>
+                        Auf dieser Seite finden Sie Informationen für Gessertshausen und Umgebung.
+                        Es gibt aktuelle News, Berichte aus der Region, Hilfsangebote und vieles mehr!
+                    </p>
                 </div>
-
             </div>
-
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" >
+                        <div class="card-header">
+                            Gemeinde Gessertshausen
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Einkaufs-Hilfe der Gemeinde Gessertshausen</h5>
+                            <p class="card-text">Um den älteren Mitmenschen ihre Einkäufe zu ermöglichen, bietet die Gemeinde Gessertshausen in Zusammenarbeit mit dem AK 60+ einen Einkaufsdienst an. </p>
+                            <p class="card-text">
+                                Bürger, die dieses Angebot nutzen wollen, können sich täglich von 8:00 – 18:00 Uhr unter der Rufnummer
+                                <a href="tel:015252090724">0152 520 907 24</a> (Ansprechpartnerin Anja Völk) melden.</p>
+                            <a href="https://www.gessertshausen.de/news/artikel/news/2020/3/16/helfen-sie-sich-gegenseitig-in-zeiten-von-corona-1/" target="_blank" class="btn btn-primary">Mehr...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" >
+                        <div class="card-header">
+                            Essen und Trinken
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Restaurants und Lieferdienste</h5>
+                            <p class="card-text">Viele Restaurants bieten jetzt einen Abholung von Speisen an.
+                                Auch Lieferdienste wurden eingerichtet, um Sie in der Ausgangssperre weiter zu versorgen.</p>
+                            <a href="/essen.php" class="btn btn-primary">Mehr...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ include('Partials/about.twig') }}
         </div>
     </div>
 {% endblock %}
