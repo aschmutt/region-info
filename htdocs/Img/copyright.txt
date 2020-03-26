@@ -8,6 +8,9 @@ Gessertshausen_Dietkirch2
 Pizza
 <a href="https://commons.wikimedia.org/wiki/File:Rotella_per_pizza.jpg" title="via Wikimedia Commons">Garonzi Stefania</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
 
+Pizza2
+<a href="https://pixabay.com/de/users/publicdomainimages-327722/">PublicDomainImages</a> auf <a href="https://pixabay.com/de/photos/pizza-trinken-lebensmittel-386717/">Pixabay</a>
+
 Gemüse
 <a href="https://commons.wikimedia.org/wiki/File:Gr%C3%BCnes_Gem%C3%BCse_1.jpg" title="via Wikimedia Commons">Schnobby</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
 
@@ -16,3 +19,6 @@ Einkauf
 
 Tastatur
 <a href="https://commons.wikimedia.org/wiki/File:Illu-hand-tastatur.svg" title="via Wikimedia Commons">Studio GOOD digital GmbH for Wikimedia Deutschland</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+
+Eis
+<a href="https://pixabay.com/de/users/JESHOOTS-com-264599/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=410330">Jan Vašek</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=410330">Pixabay</a>
