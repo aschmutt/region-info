@@ -1,0 +1,51 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <div class="card bg-dark text-white header-card d-print-none">
+        <img src="../Img/Gessertshausen_Dietkirch_1024.JPG" class="card-img" alt="Geschäfte und Einrichtungen">
+        <p class="copyright">
+            &copy; <a href="https://commons.wikimedia.org/wiki/File:Gessertshausen,_A_-_Dietkirch_v_S.JPG" title="via Wikimedia Commons">Flodur63</a> / <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA</a>
+        </p>
+
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Geschäfte und Einrichtungen</h2>
+                    <p>
+                        Wer hat geöffnet und wer nicht?
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            Gemeinde Gessertshausen
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Rathaus</h5>
+                            <p class="card-text">
+                                Auskünfte und Anfragen müssen vorerst bis 20. April telefonisch oder schriftlich erfolgen bzgl. gestellt werden. <br />
+                                Viele notwendige Formulare können auf der Homepage unter
+                                <a href="https://www.gessertshausen.de/buergerservice-politik/rathaus/formulare-online-dienste/" target="_blank">
+                                    Bürgerservice & Politik/ Formulare & Online-Dienste </a>
+                                    heruntergeladen werden.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            {{ include('Partials/about.twig') }}
+        </div>
+    </div>
+{% endblock %}
+
+
+
+

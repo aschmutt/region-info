@@ -2,9 +2,9 @@
 
 {% block content %}
     <div class="card bg-dark text-white header-card d-print-none">
-        <img src="/Img/Pizza_1024.jpg" class="card-img" alt="Pizza und andere Lieferdienste">
+        <img src="/Img/gemuese_1024.jpg" class="card-img" alt="Pizza und andere Lieferdienste">
         <p class="copyright">
-            &copy; <a href="https://commons.wikimedia.org/wiki/File:Rotella_per_pizza.jpg" title="via Wikimedia Commons">Garonzi Stefania</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+            &copy; <a href="https://commons.wikimedia.org/wiki/File:Gr%C3%BCnes_Gem%C3%BCse_1.jpg" title="via Wikimedia Commons">Schnobby</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
         </p>
 
     </div>
@@ -22,9 +22,15 @@
             </div>
             <div class="row py-3">
                 <div class="col-md-6 col-sm-12">
-                    <div class="card" >
+                    <div class="card content-card" >
                         <div class="card-header">
                             Pizzeria
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/Pizza_1024.jpg" class="card-img-top" alt="Pizza">
+                            <div class="copyright">
+                                &copy; <a href="https://commons.wikimedia.org/wiki/File:Rotella_per_pizza.jpg" title="via Wikimedia Commons">Garonzi Stefania</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+                            </div>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Bellanova Gessertshausen</h5>
@@ -44,12 +50,16 @@
                     </div>
                 </div>
 
-            </div>
-            <div class="row py-3">
                 <div class="col-md-6 col-sm-12">
-                    <div class="card" >
+                    <div class="card content-card" >
                         <div class="card-header">
                             Gemüsekiste
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/gemuese_512.jpg" class="card-img-top" alt="Pizza">
+                            <div class="copyright">
+                                <a href="https://commons.wikimedia.org/wiki/File:Gr%C3%BCnes_Gem%C3%BCse_1.jpg" title="via Wikimedia Commons">Schnobby</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+                            </div>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Stümpflhof</h5>
@@ -66,13 +76,6 @@
                 </div>
             </div>
 
-
-            <div class="row" style="margin-top:50px;">
-                <div class="alert alert-warning" role="alert">
-                    Sie wollen einen weiteren Eintrag hinzufügen oder einen vorhandenen ändern? <br />
-                    Schreiben Sie eine Mail mit allen Infos an: <a href="mailto:kontakt@gessertshausen-info.de">kontakt@gessertshausen-info.de</a>
-                </div>
-            </div>
             {{ include('Partials/about.twig') }}
         </div>
     </div>
