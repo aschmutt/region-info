@@ -7,4 +7,7 @@ $twig = new \Twig\Environment($loader, [
 
 ]);
 
-echo $twig->render('geschaefte.twig', ['title' => 'Geschäfte und Einrichtungen']);
+echo $twig->render('geschaefte.twig', [
+    'title' => 'Geschäfte und Firmen',
+    'description' => 'Informations-Seite für Geschäfte und Firmen in Gessertshausen und Umgebung'
+]);

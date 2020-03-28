@@ -8,4 +8,7 @@ $twig = new \Twig\Environment($loader, [
 ]);
 $twig->addExtension(new \Twig\Extension\DebugExtension());
 
-echo $twig->render('index.twig', ['title' => 'Startseite']);
+echo $twig->render('index.twig', [
+    'title' => 'Startseite',
+    'description' => 'Informations-Seite für Gessertshausen und Umgebung'
+]);

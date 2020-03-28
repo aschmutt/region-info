@@ -14,6 +14,9 @@ Pizza2
 Gemüse
 <a href="https://commons.wikimedia.org/wiki/File:Gr%C3%BCnes_Gem%C3%BCse_1.jpg" title="via Wikimedia Commons">Schnobby</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
 
+Gemüse2
+<a href="https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=752153">Selling of my photos with StockAgencies is not permitted</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=752153">Pixabay</a>
+
 Einkauf
 <a href="https://commons.wikimedia.org/wiki/File:Einkauf_(26216958809).jpg" title="via Wikimedia Commons">Tim Reckmann from Hamm, Deutschland</a> / <a href="https://creativecommons.org/licenses/by/2.0">CC BY</a>
 
@@ -22,3 +25,6 @@ Tastatur
 
 Eis
 <a href="https://pixabay.com/de/users/JESHOOTS-com-264599/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=410330">Jan Vašek</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=410330">Pixabay</a>
+
+Croissant
+<a href="https://pixabay.com/users/Pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284438">Pexels</a> auf <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284438">Pixabay</a>

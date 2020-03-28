@@ -6,6 +6,10 @@ a:hover, a:focus, a:active {
     color: #6c481a;
     text-decoration:none;
 }
+.alert a {
+    color: #6c481a;
+    text-decoration: underline;
+}
 
 .btn-primary {
     color: #fff;
@@ -13,6 +17,7 @@ a:hover, a:focus, a:active {
     border-color: #6c481a;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
     background-color: #6c481a;
     border-color: #6c481a;
 }
@@ -24,6 +29,12 @@ a:hover, a:focus, a:active {
     padding: 4px;
     font-size: 10px;
     color: black;
+}
+.quote {
+    color: #aaa;
+    border-left: 1px solid #aaa;
+    display: block;
+    padding-left: 10px;
 }
 
 /** Nav **/

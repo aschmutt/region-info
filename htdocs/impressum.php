@@ -7,4 +7,7 @@ $twig = new \Twig\Environment($loader, [
 
 ]);
 
-echo $twig->render('impressum.twig', ['title' => 'Impressum']);
+echo $twig->render('impressum.twig', [
+    'title' => 'Impressum',
+    'description' => 'Informations-Seite für Gessertshausen und Umgebung'
+]);

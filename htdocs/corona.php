@@ -8,4 +8,7 @@ $twig = new \Twig\Environment($loader, [
 ]);
 $twig->addExtension(new \Twig\Extension\DebugExtension());
 
-echo $twig->render('corona.twig', ['title' => 'Corona']);
+echo $twig->render('corona.twig', [
+    'title' => 'Corona',
+    'description' => 'Informations-Seite für Gessertshausen und Umgebung'
+]);

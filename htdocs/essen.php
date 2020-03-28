@@ -7,4 +7,7 @@ $twig = new \Twig\Environment($loader, [
 
 ]);
 
-echo $twig->render('essen.twig', ['title' => 'Essen und Trinken']);
+echo $twig->render('essen.twig', [
+    'title' => 'Essen und Trinken',
+    'description' => 'Restaurants, Lieferdienste und regionale Produkte in Gessertshausen und Umgebung'
+]);
