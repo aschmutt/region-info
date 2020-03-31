@@ -45,6 +45,35 @@
                 <div class="col-md-6 py-3">
                     <div class="card content-card" >
                         <div class="card-header">
+                            Mundschutz
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/mundschutz.JPG" class="card-img-top" alt="Mundschutz">
+                            <div class="copyright">
+                                &copy; <a href="http://gessertshausen-info.de/">gessertshausen-info.de</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Selbst genähter Mundschutz</h5>
+                            <p class="card-text">
+                                Ein selbst genähter Mundschutz funktioniert so: er schützt weniger nicht den Träger, und mehr die Anderen. <br />
+                                Je mehr Menschen ihn tragen, um so weniger Viren werden über Tröpfchen in der Umgebung verteilt. </p>
+                            <p class="card-text">
+                                Das ist also ein <b>indirekter Schutz</b>, der im Falle einer unerkannten Infektion die Verbreitung verhindert. <br />
+                                Außerdem gibt es noch einen psychologischen Effekt: man fasst sich nicht mehr so einfach ins Gesicht!
+                            </p>
+                            <p class="card-text">
+                                Dazu kommt, dass medizinische Mundschutz-Lieferungen derzeit Mangelware sind. Deswegen werden Behelfs-Mundschutze auch von Pflege-Personal, Verkäufer/innen, usw. gerne genommen. </p>
+                            <p class="card-text">
+                                Dazu haben sich mittlerweile Nähgruppen in ganz Deutschland gebildet, die kostenlos Mundschutze nähen. Wollen wir hier auch <b>mitmachen?</b> Ich habe noch viel bunte Baumwoll-Stoffe, und könnte die Verteilung organisieren!
+                            </p>
+                            <a href="https://naehfrosch.de/mundschutz-selber-naehen/" class="btn btn-primary" target="_blank">Mundschutz Näh-Anleitung</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
                             Nachbarschafts-App
                         </div>
                         <div class="card-img">
@@ -69,21 +98,23 @@
                 <div class="col-md-6 py-3">
                     <div class="card content-card" >
                         <div class="card-header">
-                            Informationen
+                            Neuigkeiten mitteilen
                         </div>
                         <div class="card-img">
-                            <img src="/Img/tastatur.png" class="card-img-top" alt="nebenan.de">
+                            <img src="/Img/tastatur.png" class="card-img-top" alt="Neuigkeiten mitteilen">
                             <div class="copyright">
                                 &copy; <a href="https://commons.wikimedia.org/wiki/File:Illu-hand-tastatur.svg" title="via Wikimedia Commons">Studio GOOD digital GmbH for Wikimedia Deutschland</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Infos sammeln für diese Seite</h5>
+                            <h5 class="card-title">Diese Seite braucht ihre Hilfe</h5>
                             <p class="card-text">
-                                Diese Seite braucht noch viel mehr Informationen! Fragen Sie doch beim nächsten Einkauf beim Geschäft nach, ob es aktuelle Informationen zu Öffnungszeiten gibt,
+                                Diese Seite lebt von aktuellen Informationen aus der Region! <br />
+                                Fragen Sie doch beim nächsten Einkauf beim Geschäft nach, ob es aktuelle Informationen zu Öffnungszeiten gibt,
                                 ob neuerdings Lieferservice angeboten wird, oder generell Besonderheiten zu beachten sind. </p>
                             <p class="card-text">
-                                Als Inhaber eines Geschäfts können Sie kostenlos hier veröffentlichen. Wer Bestellzettel zum ausdrucken hat, kann die per PDF schicken.
+                                Und als Inhaber eines Geschäfts können Sie kostenlos hier veröffentlichen: Änderungen im Geschäftsbetrieb, eine Gutschein-Aktion oder eine Kundeninformation.
+                                Völlig kostenlos und jederzeit änderbar.
                             </p>
                             <p class="card-text">
                                 Alles bitte per Mail schicken an:  <a href="mailto:kontakt@gessertshausen-info.de">kontakt@gessertshausen-info.de</a>
@@ -93,7 +124,7 @@
                     </div>
                 </div>
             </div>
-
+            {{ include('Partials/categories.twig') }}
             {{ include('Partials/about.twig') }}
         </div>
     </div>

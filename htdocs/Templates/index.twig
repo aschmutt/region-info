@@ -17,18 +17,43 @@
                     <h2>Gessertshausen</h2>
                     <h3>Informationen und Aktuelles</h3>
                     <p>
-                        Auf dieser Seite finden Sie aktuelle Informationen für Gessertshausen und die Ortsteile Deubach, Döpshofen, Margertshausen, Wollishausen und Oberschönenfeld.
-                        Auch wichtige Informationen aus dem Landkreis Augsburg werden angeboten.
-                    </p>
-                    <p>
-                        Zu Zeiten der Corona-Krise sind regelmäßig aktualisierte Informationen sehr wichtig. Dazu werden die Geschäfte und öffentliche Einrichtungen angefragt nach Öffnungszeiten und
-                        Änderungen im Geschäftsbetrieb. Diese Informationen werden dann hier veröffentlicht. Sie können auch selber Informationen mitteilen an: <a href="mailto:kontakt@gessertshausen-info.de">kontakt@gessertshausen-info.de</a>
+                        Zu Zeiten der Corona Krise bietet diese Seite aktuelle Informationen aus Gessertshausen und den Ortsteilen Deubach, Döpshofen, Margertshausen, Wollishausen und Oberschönenfeld. </p>
+                        <P>Dazu kommen Hilfsangebote, Unterstützungs-Möglichkeiten und Nachrichten aus der Region.
                     </p>
                 </div>
             </div>
+            {{ include('Partials/categories.twig') }}
             <div class="row">
 
-
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            Mundschutz
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/mundschutz.JPG" class="card-img-top" alt="Mundschutz">
+                            <div class="copyright">
+                                &copy; <a href="http://gessertshausen-info.de/">gessertshausen-info.de</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Selbst genähter Mundschutz</h5>
+                            <p class="card-text">
+                                Ein selbst genähter Mundschutz funktioniert so: er schützt weniger nicht den Träger, und mehr die Anderen. <br />
+                                Je mehr Menschen ihn tragen, um so weniger Viren werden über Tröpfchen in der Umgebung verteilt. </p>
+                            <p class="card-text">
+                                Das ist also ein <b>indirekter Schutz</b>, der im Falle einer unerkannten Infektion die Verbreitung verhindert. <br />
+                                Außerdem gibt es noch einen psychologischen Effekt: man fasst sich nicht mehr so einfach ins Gesicht!
+                            </p>
+                            <p class="card-text">
+                                Dazu kommt, dass medizinische Mundschutz-Lieferungen derzeit Mangelware sind. Deswegen werden Behelfs-Mundschutze auch von Pflege-Personal, Verkäufer/innen, usw. gerne genommen. </p>
+                            <p class="card-text">
+                                Dazu haben sich mittlerweile Nähgruppen in ganz Deutschland gebildet, die kostenlos Mundschutze nähen. Wollen wir hier auch <b>mitmachen?</b> Ich habe noch viel bunte Baumwoll-Stoffe, und könnte die Verteilung organisieren!
+                            </p>
+                            <a href="https://naehfrosch.de/mundschutz-selber-naehen/" class="btn btn-primary" target="_blank">Mundschutz Näh-Anleitung</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 py-3">
                     <div class="card content-card" >
                         <div class="card-header">
@@ -71,29 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 py-3">
-                    <div class="card content-card" >
-                        <div class="card-header">
-                            <u>gessertshausen-info.de</u> geht online
-                        </div>
-                        <div class="card-img">
-                            <img src="/Img/Gessertshausen_Dietkirch2_1024.JPG" class="card-img-top" alt="Gessertshausen">
-                            <div class="copyright">
-                                &copy; <a href="https://commons.wikimedia.org/wiki/File:Dietkirch_-_Kirche_und_ehemalige_Schule.jpg" title="via Wikimedia Commons">Robme66</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Informations-Seite geht online</h5>
-                            <p class="card-text">
-                                Seit dem 26. März ist diese Seite online. Sie bietet aktuelle Informationen in Zeiten der Corona-Krise: wer hat noch geöffnet, was hat sich geändert?
-                            </p>
-                            <p class="card-text">
-                                Auch Hilfsangebote und Nachbarschafts-Initiativen werden unterstützt. Und wenn Sie eine Idee haben was hier noch fehlt: schreiben Sie eine Mail!
-                            </p>
-                            <a href="mailto:kontakt@gessertshausen-info.de" class="btn btn-primary">Mail schreiben</a>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col-md-6 py-3">
                     <div class="card content-card" >
                         <div class="card-header">
@@ -118,44 +121,29 @@
                 <div class="col-md-6 py-3">
                     <div class="card content-card" >
                         <div class="card-header">
-                            Essen und Trinken
+                            <u>gessertshausen-info.de</u> geht online
                         </div>
                         <div class="card-img">
-                            <img src="/Img/pizza2_640.jpg" class="card-img-top" alt="Gessertshausen">
+                            <img src="/Img/Gessertshausen_Dietkirch2_1024.JPG" class="card-img-top" alt="Gessertshausen">
                             <div class="copyright">
-                                &copy; <a href="https://commons.wikimedia.org/wiki/File:Gr%C3%BCnes_Gem%C3%BCse_1.jpg" title="via Wikimedia Commons">Schnobby</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+                                &copy; <a href="https://commons.wikimedia.org/wiki/File:Dietkirch_-_Kirche_und_ehemalige_Schule.jpg" title="via Wikimedia Commons">Robme66</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Restaurants, Lieferdienste und Produkte von Bauern</h5>
-                            <p class="card-text">Viele Restaurants bieten jetzt einen Abholung von Speisen an.
-                                Auch Lieferdienste wurden eingerichtet, um Sie in der Ausgangssperre weiter zu versorgen.</p>
+                            <h5 class="card-title">Informations-Seite geht online</h5>
                             <p class="card-text">
-                                Außerdem gibt es regionale Bauern, die ihre Produkte direkt verkaufen.
+                                Seit dem 26. März ist diese Seite online. Sie bietet aktuelle Informationen in Zeiten der Corona-Krise: wer hat noch geöffnet, was hat sich geändert?
                             </p>
-                            <a href="/essen.php" class="btn btn-primary">Mehr...</a>
+                            <p class="card-text">
+                                Auch Hilfsangebote und Nachbarschafts-Initiativen werden unterstützt. Und wenn Sie eine Idee haben was hier noch fehlt: schreiben Sie eine Mail!
+                            </p>
+                            <a href="mailto:kontakt@gessertshausen-info.de" class="btn btn-primary">Mail schreiben</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 py-3">
-                    <div class="card content-card" >
-                        <div class="card-header">
-                            Hilfe und Mitmachen
-                        </div>
-                        <div class="card-img">
-                            <img src="/Img/einkauf_512.jpg" class="card-img-top" alt="Einkaufs-Hilfe">
-                            <div class="copyright">
-                                &copy; <a href="https://commons.wikimedia.org/wiki/File:Einkauf_(26216958809).jpg" title="via Wikimedia Commons">Tim Reckmann from Hamm, Deutschland</a> / <a href="https://creativecommons.org/licenses/by/2.0">CC BY</a>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Alle Hilfsangebote im Überblick</h5>
-                            <p class="card-text">Es gibt eine Menge Hilfsbereitschaft, um die Krise gemeinsam zu bewältigen. Oft sind es nur kleine Dinge, die einem anderen weiterhelfen können.</p>
-                            <a href="/hilfe.php" class="btn btn-primary">Mehr...</a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+            {{ include('Partials/categories.twig') }}
             {{ include('Partials/about.twig') }}
         </div>
     </div>

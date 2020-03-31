@@ -14,8 +14,9 @@
                 <div class="col-md-12">
                     <h2>Essen und Trinken</h2>
                     <p>
-                        Viele Restaurants bieten jetzt eine Abholung von Speisen an.
-                        Auch Lieferdienste wurden eingerichtet, um Sie in der Ausgangssperre weiter zu versorgen.
+                        Viele Restaurants bieten jetzt eine Abholung von Speisen an. <br />
+                        Auch Lieferdienste wurden eingerichtet, um Sie in der Ausgangssperre weiter zu versorgen. <br />
+                        Dazu kommen regionale Bauern, die ihre Produkte direkt verkaufen.
                     </p>
                 </div>
             </div>
@@ -37,7 +38,7 @@
                                 Alle Supermärkte in der Umgebung haben regulär geöffnet. Auch Bäckerei Schneider, Metzgerei Dichtl, Mühlenladen Welzhofer und Wagner Deubach haben regulär geöffnet.
                             </p>
                             <p class="card-text">
-                                In den Geschäften bitte aufeinander achten, und den Mindest-Abstand von 1,5m zu anderen Menschen einhalten. <br />
+                                In den Geschäften ist es wichtig, aufeinander zu achten, und den Mindest-Abstand von 1,5m einzuhalten. <br />
                                 Bei kleinen Geschäftsräumen bitte draußen warten, und nacheinander eintreten. <br />
                             </p>
                         </div>
@@ -150,6 +151,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            Getränke
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/rapp.jpg" class="card-img-top" alt="Brauerei Rapp">
+                            <div class="copyright">
+                                <a href="https://www.brauerei-rapp.de/" target="_blank">Brauerei Rapp</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Getränke Lieferdienst der Brauerei Rapp</h5>
+                            <p class="card-text">
+                                Rapp liefert auch weiterhin seine Getränke aus. Einschränkungen gibt es nur bei gemischten Kästen, dazu die Info von der Rapp Webseite: </p>
+                                <span class="quote">
+                                    Trotz der aktuellen Lage bzgl. des Corona-Virus können wir unsere Kunden noch wie gewohnt beliefern. <br />
+                                    Aus hygienischen Gründen können wir momentan keine Kisten halb/halb liefern, da diese von Hand zusammengestellt werden.
+                                </span>
+                            </p>
+                            <a href="https://www.brauerei-rapp.de/" target="_blank" class="btn btn-primary">Zur Webseite</a>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-md-6 py-3">
                     <div class="card content-card" >
@@ -177,7 +202,7 @@
                 </div>
 
             </div>
-
+            {{ include('Partials/categories.twig') }}
             {{ include('Partials/about.twig') }}
         </div>
     </div>

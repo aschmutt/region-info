@@ -31,10 +31,11 @@ a:hover, a:focus, a:active {
     color: black;
 }
 .quote {
-    color: #aaa;
     border-left: 1px solid #aaa;
     display: block;
-    padding-left: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: lightgoldenrodyellow;
 }
 
 /** Nav **/
@@ -74,4 +75,15 @@ a.print-button {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+/**Category*/
+.badge-primary {
+    background-color: #fa0046;
+}
+.category-list .badge-primary {
+    float: right;
+}
+.category-list a {
+    width: 100%;
 }
