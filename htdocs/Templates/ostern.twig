@@ -1,0 +1,83 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <div class="card bg-dark text-white header-card d-print-none">
+        <img src="/Img/osterkorb_1920.jpg" class="card-img" alt="Geschäfte und Einrichtungen">
+        <p class="copyright">
+            &copy; <a href="https://pixabay.com/de/users/Couleur-1195798/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2093315">Couleur-1195798</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2093315">Pixabay</a>
+        </p>
+
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Alles rund um das Osterfest</h2>
+                    <p>
+                        Das Osterfest steht vor der Türe, doch heuer ist alles ein bißchen anders! <br />
+                        Hier werden wir im Laufe der Woche Ideen und Angebote sammeln, damit das Osterfest auch dieses Jahr ein Fest der Freude wird!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            Vorbestellen
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/telefon_640.jpg" class="card-img-top" alt="Bäckerei">
+                            <div class="copyright">
+                                &copy; <a href="https://pixabay.com/de/users/526663-526663/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=499991">Stefan Kuhn</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=499991">Pixabay</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Vorbestellung und Abholung</h5>
+                            <p class="card-text">
+                                Sie wissen ja selber wieviel vor den Feiertagen immer los ist beim einkaufen.<br />
+                                Nutzen Sie doch dieses Jahr besonders die Vorbestell-Möglichkeiten in den Geschäften, dann liegt alles bereits für Sie bereit!
+                            </p>
+                            <ul>
+                                <li>Metzgerei Dichtl, Gessertshausen</li>
+                                <li>Bäckerei Schneider, Gessertshausen</li>
+                                <li>Bäckerei Schnell, Margertshausen</li>
+                                <li>Blumenladen Edmann - im Wagner Markt Deubach</li>
+                                <li>Mühlenladen Welzhofer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            Blumenstube Edmann
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/blumenstube_wagner.jpg" class="card-img-top" alt="Pizza">
+                            <div class="copyright">
+                                <a href="https://www.facebook.com/photo.php?fbid=1292872734250204&set=p.1292872734250204&type=3&theater" target="_blank">Facebook, Nathalie Blaha</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Blumenstube verkauft im Wagner Deubach</h5>
+                            <p class="card-text">
+                                Es gibt ein eigenes Regal im Wagner Markt in Deubach mit Oster-Dekorationen der Blumenstube Edmann. <br/>
+                            </p>
+                            <a href="https://www.facebook.com/wagnermarktdeubach/"
+                               class="btn btn-primary" target="_blank">zur Facebook Seite des Wagner Markts</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {{ include('Partials/categories.twig') }}
+            {{ include('Partials/about.twig') }}
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
