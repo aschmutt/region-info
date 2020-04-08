@@ -10,5 +10,5 @@ $twig = new \Twig\Environment($loader, [
 echo $twig->render('impressum.twig', [
     'title' => 'Impressum',
     'description' => 'Informations-Seite für nirgendheim und Umgebung',
-    'url' => 'http://nirgendheim-info.de'
+    'url' => 'http://demo.gessertshausen-info.de'
 ]);

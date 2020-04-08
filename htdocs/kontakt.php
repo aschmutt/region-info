@@ -9,6 +9,6 @@ $twig = new \Twig\Environment($loader, [
 
 echo $twig->render('kontakt.twig', [
     'title' => 'Kontakt',
-    'description' => 'Informations-Seite für nirgendheim und Umgebung',
-    'url' => 'http://nirgendheim-info.de'
+    'description' => 'Informations-Seite für Nirgendheim und Umgebung',
+    'url' => 'http://demo.gessertshausen-info.de'
 ]);

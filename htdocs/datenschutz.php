@@ -10,5 +10,5 @@ $twig = new \Twig\Environment($loader, [
 echo $twig->render('datenschutz.twig', [
     'title' => 'Datenschutz',
     'description' => 'Datenschutz Seite',
-    'url' => 'http://nirgendheim-info.de'
+    'url' => 'http://demo.gessertshausen-info.de'
 ]);
