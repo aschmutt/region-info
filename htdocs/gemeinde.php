@@ -10,5 +10,5 @@ $twig = new \Twig\Environment($loader, [
 echo $twig->render('gemeinde.twig', [
     'title' => 'Gemeinde und Einrichtungen',
     'description' => 'Informations-Seite für Gessertshausen und Umgebung',
-    'url' => 'http://gessertshausen-info.de/gemeinde.php'
+    'url' => 'https://www.gessertshausen-info.de/gemeinde.php'
 ]);

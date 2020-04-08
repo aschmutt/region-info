@@ -11,5 +11,5 @@ $twig->addExtension(new \Twig\Extension\DebugExtension());
 echo $twig->render('hilfe.twig', [
     'title' => 'Helfen',
     'description' => 'Informations-Seite für Hilfsangebote und Bürger-Initiativen in Gessertshausen und Umgebung',
-    'url' => 'http://gessertshausen-info.de/hilfe.php'
+    'url' => 'https://www.gessertshausen-info.de/hilfe.php'
 ]);

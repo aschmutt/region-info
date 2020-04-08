@@ -10,5 +10,5 @@ $twig = new \Twig\Environment($loader, [
 echo $twig->render('datenschutz.twig', [
     'title' => 'Datenschutz',
     'description' => 'Informations-Seite für Gessertshausen und Umgebung',
-    'url' => 'http://gessertshausen-info.de'
+    'url' => 'https://www.gessertshausen-info.de'
 ]);
