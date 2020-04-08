@@ -1,0 +1,7 @@
+#Redirect to www
+RewriteCond %{HTTP_HOST} ^gessertshausen-info\.de$	[NC]
+RewriteRule ^(.*)$ https://www\.gessertshausen-info\.de/$1 [R=301,L,NE]
+
+#enforce https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www\.gessertshausen-info\.de/$1 [R=301,L]
