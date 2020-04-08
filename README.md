@@ -1,21 +1,40 @@
-## Information webpage for your region
-
-During Corona outbreak, I needed a fast and easy information webpage for my city. 
-You can copy and use it for your own purpose.
+#Region-Info
+Das ist ein OpenSource Projekt, um eine Webseite für eine Gemeinde, Dorf oder ähnliches aufzusetzen. 
+Diese Seite ist während der Corona Pandemie entstanden, um die Leute über aktuelle Entwicklung zu informieren.
 
 ### Installation
 
-* Download git repository
-* run `composer install`
+Benötigt wird ein Webserver mit php Unterstützung, Version php 7.2 oder höher
 
-* upload these folders to your server: `htdocs`, `vendor`  
-* the start page is: `htdocs/index.php` 
+* Den master branch von git herunterladen: https://github.com/aschmutt/region-info
+  * der Button "Clone or download" bietet verschiedene Download Möglichkeiten an
 
-### What Tools are used?
+* diese Ordner auf den Server hochladen: `htdocs`, `vendor` (der vendor Ordner ist recht groß, das kann etwas dauern)
+* die Startseite ist: `htdocs/index.php` 
 
-* composer for installation https://getcomposer.org/
-* Bootstrap for Frontend https://getbootstrap.com/
+### Development
+
+Wer selber programmieren will, kann das tun: 
+
+* Der Ordner `vendor` wurde von [Composer](https://getcomposer.org/) erzeugt. Das kann man für den Anfang einfach mal so lassen. 
+Wenn man Updates braucht oder neue Pakete, kann man das mit den Composer Befehlen recht einfach tun: 
+
+  * `composer install` erzeugt den vendor Ordner neu
+  * `composer update` akualisiert alle Pakete im vendor Ordner
+  * `composer require neues-package` fügt "neues-package" hinzu 
+
+* Bootstrap Version4 for Frontend https://getbootstrap.com/
 * Twig for Templates https://twig.symfony.com/
+* ddev für eine lokale Docker Umgebung
+
+
+
+
+### Welche Tools brauche ich dafür? 
+
+
+
+
 
 ### License
 This site is published unter GPLv3 - see /htdocs/License.html

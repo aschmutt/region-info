@@ -15,9 +15,6 @@ _temp_/
 # Ignore node_modules
 node_modules
 
-# Ignore composer folder
-vendor
-
 # ignore misc
 *.un~
 *.swp

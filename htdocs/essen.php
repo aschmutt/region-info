@@ -9,6 +9,6 @@ $twig = new \Twig\Environment($loader, [
 
 echo $twig->render('essen.twig', [
     'title' => 'Essen und Trinken',
-    'description' => 'Restaurants, Lieferdienste und regionale Produkte in Gessertshausen und Umgebung',
-    'url' => 'http://gessertshausen-info.de/essen.php'
+    'description' => 'Restaurants, Lieferdienste und regionale Produkte in nirgendheim und Umgebung',
+    'url' => 'http://nirgendheim-info.de/essen.php'
 ]);

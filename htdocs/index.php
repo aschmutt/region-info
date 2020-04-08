@@ -9,7 +9,7 @@ $twig = new \Twig\Environment($loader, [
 $twig->addExtension(new \Twig\Extension\DebugExtension());
 
 echo $twig->render('index.twig', [
-    'title' => 'Aktuelles aus Gessertshausen und Umgebung',
+    'title' => 'Aktuelles aus Nirgendheim und Umgebung',
     'description' => 'Informationen zu Geschäfts-Öffnungszeiten, Hilfsangebote wg. Corona und mehr',
-    'url' => 'http://gessertshausen-info.de'
+    'url' => 'http://nirgendheim-info.de'
 ]);

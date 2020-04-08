@@ -9,6 +9,6 @@ $twig = new \Twig\Environment($loader, [
 
 echo $twig->render('ostern.twig', [
     'title' => 'Ostern',
-    'description' => 'Ostern in Gessertshausen und Umgebung',
-    'url' => 'http://gessertshausen-info.de/ostern.php'
+    'description' => 'Ostern in nirgendheim und Umgebung',
+    'url' => 'http://nirgendheim-info.de/ostern.php'
 ]);
