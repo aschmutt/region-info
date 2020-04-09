@@ -15,7 +15,7 @@ Gemüse
 <a href="https://commons.wikimedia.org/wiki/File:Gr%C3%BCnes_Gem%C3%BCse_1.jpg" title="via Wikimedia Commons">Schnobby</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
 
 Gemüse2
-<a href="https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=752153">Selling of my photos with StockAgencies is not permitted</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=752153">Pixabay</a>
+<a href="https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=752153">congerdesign</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=752153">Pixabay</a>
 
 Einkauf
 <a href="https://commons.wikimedia.org/wiki/File:Einkauf_(26216958809).jpg" title="via Wikimedia Commons">Tim Reckmann from Hamm, Deutschland</a> / <a href="https://creativecommons.org/licenses/by/2.0">CC BY</a>
@@ -43,3 +43,9 @@ Schnitzel
 
 Buchladen
 <a href="https://pixabay.com/de/users/pixel2013-2364555/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4317851">S. Hermann &amp; F. Richter</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4317851">Pixabay</a>
+
+Bieneblume
+<a href="https://pixabay.com/de/users/MichaelGaida-652234/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3530729">MichaelGaida</a>
+
+Kerze
+<a href="https://pixabay.com/de/users/Myriams-Fotos-1627417/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1926414">Myriam Zilles</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1926414">Pixabay</a>
