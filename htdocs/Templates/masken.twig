@@ -1,0 +1,119 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <div class="card bg-dark text-white header-card d-print-none">
+        <img src="/Img/mundschutz.JPG" class="card-img" alt="Community-Masken">
+        <p class="copyright">
+            &copy; <a href="https://www.gessertshausen-info.de/" target="_blank">gessertshausen-info.de</a>
+        </p>
+
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-3">
+                    <h2>Selbstgenähte Community Masken</h2>
+                </div>
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            <h4>Nähgruppe</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Wir haben eine Nähgruppe für selbstgenähte Masken gegründet!
+                            </p>
+                            <p class="card-text">
+                                <b>Jeder ist bei uns willkommen!</b><br />
+                                Willst du vielleicht Masken für deine Freunde und Familie nähen? Oder sogar ehrenamtlich welche für andere herstellen? <br />
+                                Auch Anfängern helfen wir gerne weiter, denn so schwer ist das gar nicht!
+                            </p>
+                            <p class="card-text">
+                                Zum Austausch haben wir eine WhatsApp Gruppe eingerichet:
+                            </p>
+                            <a href="https://chat.whatsapp.com/GmyQQqDMik9BaJkpZ9SOOa" class="btn btn-primary" target="_blank">Zur WhatsApp Gruppe</a>
+                            <p class="card-text py-2">
+                                Schau doch einfach mal vorbei!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            <h4>Wo bekomme ich eine Maske?</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Ab dem 29.04. steht beim <b>Rathaus Gessertshausen</b> eine Kiste mit Masken. <br />
+                                Die Kiste steht zu den Öffnungszeiten im Eingangsbereich, neben den gelben Säcken.
+                            </p>
+                            <p class="card-text">
+                                Dort kann sich jeder eine nehmen, der eine braucht - natürlich nur so lange der Vorrat reicht. <br />
+                                Sobald wieder welche genäht sind, wird die Kiste auch nachgefüllt.<br />
+                                Deswegen bitte nur <b>1 Maske pro Person</b> im Haushalt mitnehmen.<br />
+                            </p>
+                            <p class="card-text">
+                                Wir bitten um eine <b>kleine Spende</b> für Materialkosten (in den Rathaus Briefkasten werfen)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            <h4>Wo kann ich Masken abgeben?</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Ihr könnt sie bei mir in den Briefkasten werfen (Hauptstr. 54), dann verteile ich sie weiter.
+                            </p>
+                            <p class="card-text">
+                                Oder ihr verpackt sie selber, und legt sie direkt beim Rathaus in die Kiste zum wegnehmen.
+                            </p>
+                            <p class="card-text">
+                                Es gibt auch einen kleinen Info-Zettel zur Maske mit dazu, den kann man hier runterladen:
+                            </p>
+                            <a href="/Img/MaskeFlyer3.pdf" class="btn btn-primary" target="_blank">Infozettel zur ausdrucken</a><br />
+                            <img src="/Img/MaskeFlyer3.jpg" style="width:400px;max-width:100%;" alt="Maske Information" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 py-3">
+                    <div class="card content-card" >
+                        <div class="card-header">
+                            <h4>Wie nähe ich eine Maske?</h4>
+                        </div>
+                        <div class="card-img">
+                            <img src="/Img/mundschutz.JPG" class="card-img-top" alt="Behelfs-Mund-Nasen-Maske">
+                            <div class="copyright">
+                                &copy; <a href="https://www.gessertshausen-info.de/">gessertshausen-info.de</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Die am einfachsten zu nähende Maske ist diese hier: <br />
+                                <a href="https://www.stoffe.de/mundschutz-selber-naehen.html" target="_blank">Nähanleitung auf stoffe.de</a>
+                            </p>
+                            <a href="https://www.stoffe.de/mundschutz-selber-naehen.html" target="_blank"  class="btn btn-primary">Zur Nähanleitung</a>
+                            <p class="card-text py-3">
+                                Darüber hinaus sind jede Menge weitere Schnittmuster, Nähanleitungen und Videos im Internet zu finden.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{ include('Partials/categories.twig') }}
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+
+
+
